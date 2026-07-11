@@ -1,126 +1,64 @@
-# keleo-template
+# Keleo Horticulture
 
-A template repository for creating and organizing practices and methods using the [Keleo Studio](https://github.com/keleo-labs/keleo-studio) application.
-
-## Overview
-
-This template provides a standardized directory structure for collecting JSON-formatted practices that keleo-studio language schema. The practices created here can be authored, visualized, and managed using the Keleo Studio web application.
-
-## What is Keleo Studio?
-
-Keleo Studio (also known as Adoption Framework) is a comprehensive practice management and method composition system that enables teams to:
-
-- **Author Practices**: Create software engineering practices with schema validation
-- **Compose Methods**: Build methods from baseline practices and extensions
-- **Visualize Workflows**: Generate Kanban pattern boards and flow diagrams
-- **Manage Libraries**: Browse, import, export, and organize practice collections
-
-## Directory Structure
-
-```
-keleo-template/
-├── baseline/          # PracticeBaseline JSON files (kernel practices)
-├── methods/           # Method JSON files (composed practices)
-└── practices/         # Practice JSON files (extensions)
-```
-
-### Directory Purposes
-
-- **baseline/**: Contains foundational kernel practices that define core elements (Alphas, States, Activities, WorkProducts, Competencies, etc.)
-- **practices/**: Contains practice extensions that build upon baselines with specific methodologies
-- **methods/**: Contains composed methods that combine a baseline with multiple practices
-
-## Getting Started
-
-### Prerequisites
-
-- Access to Keleo Studio - see the [main repository](https://github.com/keleo-labs/keleo-studio)
-- Basic understanding of SEMAT language concepts
-- A source methodology or documentation you want to convert into practices
-
-### Workflow
-
-1. **Set up Keleo Studio**: Clone and run the Adoption Framework application (typically at `../adoptionframework`)
-2. **Generate Practices**: Use the LLM-based generation process with the prompts in the Keleo Studio `prompts and instructions/` folder
-3. **Organize Output**: Place generated JSON files in the appropriate directories:
-   - New kernel practices → `baseline/`
-   - Practice extensions → `practices/`
-   - Composed methods → `methods/`
-4. **Validate**: Use Keleo Studio's validation tools to ensure schema compliance
-5. **Visualize**: Import into Keleo Studio to view Kanban boards and flow diagrams
-
-## Generating Practices with LLMs
-
-Keleo Studio includes comprehensive prompts for generating practices from source documentation. The main approaches are:
-
-### Full Process (11 Phases)
-
-Use `full-process-gem.md` for complete practice generation with rigorous validation:
-
-1. Load the baseline kernel and schema
-2. Provide source documentation (methodology, framework, or workflow)
-3. Work through 11 phases: Personas → Alphas → WorkProducts → Activities → PersonaGroups → Narratives → Lifecycle Patterns → Narrative Patterns → Practice Formation → Logical Integrity → Final Output
-4. Output validated JSON practices/methods
-
-### Two-Phase Research Process
-
-Use `phase 1 gem.md` and `phase 2 gem.md` for a research-first approach:
-
-- **Phase 1**: Generate human-readable research report analyzing the source methodology
-- **Phase 2**: Convert the research report into validated JSON
-
-## Practice Components
-
-Practices in this system contain:
-
-- **Alphas**: Essential elements of concern (e.g., Platform, Team, Opportunity)
-- **States**: Progression checkpoints for alphas
-- **Activities**: Work that contributes to alpha states
-- **WorkProducts**: Artifacts produced by activities
-- **Patterns**: Temporal progressions showing how practices unfold
-- **Personas & PersonaGroups**: Roles and teams involved
-- **Competencies**: Required skills mapped to personas
-- **Narratives**: Contextual storytelling for elements
-
-## Validation
-
-All practices must conform to the JSON schema defined in Keleo Studio:
-
-```bash
-# Validate a practice file using Keleo Studio
-cd ../adoptionframework
-node validate-schema.js path/to/practice.json
-```
-
-## Integration with Keleo Studio
-
-To use these practices in Keleo Studio:
-
-1. Start the Keleo Studio development server
-2. Use the **Library** feature to import practice JSON files
-3. Use the **Practice Author** to edit and refine practices
-4. Use the **Method Builder** to compose methods from practices
-5. Use the **Flow Visualizer** to view Kanban pattern boards
-
-## Example Practice Libraries
-
-See the Keleo Studio repository for reference examples:
-- `practices/adoption-library.json` - Main practice library
-- `practices/team-topologies-method.json` - Example composed method
-
-## License
-
-This template repository is licensed under the Apache License 2.0.
+A demonstration of [keleo-language](https://github.com/keleo-labs/keleo-language) being used to describe methods and practices outside of software engineering. This project models professional horticulture — covering biological systems, production operations, and professional practice — as structured, composable practices.
 
 ## Published Method
 
-A method composed from this repository's baseline and practices is published at:
+A method composed from this baseline and practices is published at:
 
 - **Documentation site**: https://keleo-labs.github.io/keleo-horticulture-docs/
 - **Source repository**: https://github.com/keleo-labs/keleo-horticulture-docs
 
-## Additional Resources
+## What's in This Repository
 
-- [Keleo Studio Documentation](https://github.com/keleo-labs/keleo-studio) (Private repository)
-- [SEMAT Essence Framework](https://www.semat.org/)
-- Keleo Studio `prompts and instructions/` folder for LLM generation guides
+### Baseline: Horticulture Essentials
+
+The foundational baseline (`baseline/horticulture-essentials.json`) defines the essential elements for professional horticulture, organized across three areas of concern:
+
+- **Biological Systems** — living plants, their growing environments, and ecological interactions
+- **Production Operations** — infrastructure, cultivation methods, technology, and resource management
+- **Professional Practice** — competencies, business operations, regulatory compliance, and governance
+
+It includes 11 Alphas tracking maturity across the domain:
+
+| Area | Alphas |
+|------|--------|
+| Biological Systems | Plant Health & Development, Growing Environment, Plant Protection, Biosecurity & Ecosystem Health, Sustainability & Environmental Stewardship |
+| Production Operations | Production System Architecture, Technical Infrastructure, Resource Management, Digital Integration |
+| Professional Practice | Business Operations & Governance, Regulatory Compliance & Standards |
+
+8 Competencies define the skills required by horticultural practitioners, from Plant Science Knowledge and Growing Media Management through to Business & Project Management and Professional Practice.
+
+9 Activity Spaces organize work into categories such as Cultivate & Maintain Plant Health, Protect Plants & Ecosystems, Deploy & Maintain Technical Infrastructure, and Ensure Compliance & Quality.
+
+### Practice: Horticulture Foundations
+
+The practice extension (`practices/horticulture-foundations.json`) builds on the baseline with three embedded sub-practices:
+
+- **Plant Biology & Protection** — evidence-based cultivation, integrated protection, and ecological management
+- **Production Technology & Operations** — design, construction, and optimization of production infrastructure and digital systems
+- **Professional Practice & Governance** — business management, regulatory compliance, workforce development, and professional standards
+
+## Directory Structure
+
+```
+keleo-horticulture/
+├── baseline/          # Foundational kernel practice (Horticulture Essentials)
+├── methods/           # Composed methods combining baseline + practices
+└── practices/         # Practice extensions (Horticulture Foundations)
+```
+
+## About Keleo Language
+
+[Keleo Language](https://github.com/keleo-labs/keleo-language) is a JSON-based practice language derived from SEMAT Essence. While SEMAT was originally designed for software engineering, keleo-language generalizes the core concepts — Alphas, States, Activities, Competencies, Patterns, and Narratives — so they can describe methods and practices in any domain.
+
+This repository demonstrates that generality by applying the language to horticulture.
+
+## Tooling
+
+- **[Keleo Studio](https://github.com/keleo-labs/keleo-studio)** — a Next.js application for authoring, composing, and visualizing practices. Use it to edit practice JSON, compose methods, and generate Kanban pattern boards and flow diagrams.
+- **[keleo-pgem-llm](https://github.com/keleo-labs/keleo-pgem-llm)** — skills for Claude that assist with initial practice creation from source documentation. Useful for bootstrapping a new practice from an existing methodology or framework.
+
+## License
+
+Apache License 2.0
