@@ -112,6 +112,13 @@ See the Keleo Studio repository for reference examples:
 
 This template repository is licensed under the Apache License 2.0.
 
+## Published Method
+
+A method composed from this repository's baseline and practices is published at:
+
+- **Documentation site**: https://keleo-labs.github.io/keleo-horticulture-docs/
+- **Source repository**: https://github.com/keleo-labs/keleo-horticulture-docs
+
 ## Additional Resources
 
 - [Keleo Studio Documentation](https://github.com/keleo-labs/keleo-studio) (Private repository)
