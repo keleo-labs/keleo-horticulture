@@ -518,11 +518,11 @@
           "alphaName": "Biosecurity & Ecosystem Health"
         },
         {
-          "relationship": "protected by",
+          "relationship": "governed by",
           "alphaName": "Plant Protection"
         },
         {
-          "relationship": "enhanced by",
+          "relationship": "uses",
           "alphaName": "Sustainability & Environmental Stewardship"
         }
       ],
@@ -734,15 +734,15 @@
       "focusName": "Biological Systems",
       "relatesTo": [
         {
-          "relationship": "supports",
+          "relationship": "produces",
           "alphaName": "Plant Health & Development"
         },
         {
-          "relationship": "managed by",
+          "relationship": "governed by",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "provided by",
+          "relationship": "uses",
           "alphaName": "Production System Architecture"
         }
       ],
@@ -954,7 +954,7 @@
       "focusName": "Biological Systems",
       "relatesTo": [
         {
-          "relationship": "protects",
+          "relationship": "governed by",
           "alphaName": "Plant Health & Development"
         },
         {
@@ -962,7 +962,7 @@
           "alphaName": "Regulatory Compliance & Standards"
         },
         {
-          "relationship": "supports",
+          "relationship": "produces",
           "alphaName": "Sustainability & Environmental Stewardship"
         }
       ],
@@ -973,27 +973,27 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Inspections scheduled weekly or more frequently du",
+              "name": "Inspections scheduled weekly or more frequently during high-risk periods",
               "description": "Inspections scheduled weekly or more frequently during high-risk periods",
               "seq": 1
             },
             {
-              "name": "Pests and diseases identified accurately using fie",
+              "name": "Pests and diseases identified accurately using field guides, diagnostic keys, or laboratory confirmation",
               "description": "Pests and diseases identified accurately using field guides, diagnostic keys, or laboratory confirmation",
               "seq": 2
             },
             {
-              "name": "Populations quantified using standard metrics (ins",
+              "name": "Populations quantified using standard metrics (insects per leaf, disease incidence %, weed density)",
               "description": "Populations quantified using standard metrics (insects per leaf, disease incidence %, weed density)",
               "seq": 3
             },
             {
-              "name": "Spatial distribution mapped to identify hotspots o",
+              "name": "Spatial distribution mapped to identify hotspots or entry points",
               "description": "Spatial distribution mapped to identify hotspots or entry points",
               "seq": 4
             },
             {
-              "name": "Trends tracked over time to detect population grow",
+              "name": "Trends tracked over time to detect population growth or decline",
               "description": "Trends tracked over time to detect population growth or decline",
               "seq": 5
             }
@@ -1005,27 +1005,27 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Economic injury levels (EIL) researched from exten",
+              "name": "Economic injury levels (EIL) researched from extension literature or calculated for local conditions",
               "description": "Economic injury levels (EIL) researched from extension literature or calculated for local conditions",
               "seq": 1
             },
             {
-              "name": "Economic impact calculated considering crop value,",
+              "name": "Economic impact calculated considering crop value, yield loss, and control costs",
               "description": "Economic impact calculated considering crop value, yield loss, and control costs",
               "seq": 2
             },
             {
-              "name": "Action thresholds defined below EIL to trigger int",
+              "name": "Action thresholds defined below EIL to trigger intervention before economic damage occurs",
               "description": "Action thresholds defined below EIL to trigger intervention before economic damage occurs",
               "seq": 3
             },
             {
-              "name": "Decision criteria explicit and documented in IPM p",
+              "name": "Decision criteria explicit and documented in IPM plans",
               "description": "Decision criteria explicit and documented in IPM plans",
               "seq": 4
             },
             {
-              "name": "Thresholds adjusted for crop stage, market conditi",
+              "name": "Thresholds adjusted for crop stage, market conditions, and pest resistance",
               "description": "Thresholds adjusted for crop stage, market conditions, and pest resistance",
               "seq": 5
             }
@@ -1042,7 +1042,7 @@
               "seq": 1
             },
             {
-              "name": "Resistant cultivars selected where available (dise",
+              "name": "Resistant cultivars selected where available (disease resistance genes, pest tolerance)",
               "description": "Resistant cultivars selected where available (disease resistance genes, pest tolerance)",
               "seq": 2
             },
@@ -1069,27 +1069,27 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Biological controls released first (predatory inse",
+              "name": "Biological controls released first (predatory insects, parasitoids, entomopathogenic nematodes, microbial pesticides)",
               "description": "Biological controls released first (predatory insects, parasitoids, entomopathogenic nematodes, microbial pesticides)",
               "seq": 1
             },
             {
-              "name": "Targeted applications executed (spot treatments, b",
+              "name": "Targeted applications executed (spot treatments, banded applications, precision spraying)",
               "description": "Targeted applications executed (spot treatments, banded applications, precision spraying)",
               "seq": 2
             },
             {
-              "name": "Mode-of-action rotated to prevent resistance devel",
+              "name": "Mode-of-action rotated to prevent resistance development",
               "description": "Mode-of-action rotated to prevent resistance development",
               "seq": 3
             },
             {
-              "name": "Non-target impact minimized through selective prod",
+              "name": "Non-target impact minimized through selective products, timing, and application methods",
               "description": "Non-target impact minimized through selective products, timing, and application methods",
               "seq": 4
             },
             {
-              "name": "Efficacy confirmed through post-treatment monitori",
+              "name": "Efficacy confirmed through post-treatment monitoring",
               "description": "Efficacy confirmed through post-treatment monitoring",
               "seq": 5
             }
@@ -1101,27 +1101,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "IPM plan documented specifying prevention, monitor",
+              "name": "IPM plan documented specifying prevention, monitoring, threshold, and intervention tactics",
               "description": "IPM plan documented specifying prevention, monitoring, threshold, and intervention tactics",
               "seq": 1
             },
             {
-              "name": "Multiple tactics coordinated (cultural + biologica",
+              "name": "Multiple tactics coordinated (cultural + biological + chemical when necessary)",
               "description": "Multiple tactics coordinated (cultural + biological + chemical when necessary)",
               "seq": 2
             },
             {
-              "name": "Resistance management active (refugia, mode-of-act",
+              "name": "Resistance management active (refugia, mode-of-action rotation, biocontrol integration)",
               "description": "Resistance management active (refugia, mode-of-action rotation, biocontrol integration)",
               "seq": 3
             },
             {
-              "name": "Input use declining over time as ecosystem balance",
+              "name": "Input use declining over time as ecosystem balance improves",
               "description": "Input use declining over time as ecosystem balance improves",
               "seq": 4
             },
             {
-              "name": "Beneficial organism populations stable or increasi",
+              "name": "Beneficial organism populations stable or increasing",
               "description": "Beneficial organism populations stable or increasing",
               "seq": 5
             }
@@ -1133,22 +1133,22 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Natural enemies abundant (predator:prey ratios fav",
+              "name": "Natural enemies abundant (predator:prey ratios favorable, parasitism rates high)",
               "description": "Natural enemies abundant (predator:prey ratios favorable, parasitism rates high)",
               "seq": 1
             },
             {
-              "name": "Pest outbreaks rare and localized, requiring minim",
+              "name": "Pest outbreaks rare and localized, requiring minimal intervention",
               "description": "Pest outbreaks rare and localized, requiring minimal intervention",
               "seq": 2
             },
             {
-              "name": "Chemical pesticide use minimal or zero (only for e",
+              "name": "Chemical pesticide use minimal or zero (only for emergency outbreaks)",
               "description": "Chemical pesticide use minimal or zero (only for emergency outbreaks)",
               "seq": 3
             },
             {
-              "name": "Ecosystem functions restored (pollination, nutrien",
+              "name": "Ecosystem functions restored (pollination, nutrient cycling, soil health)",
               "description": "Ecosystem functions restored (pollination, nutrient cycling, soil health)",
               "seq": 4
             },
@@ -1174,7 +1174,7 @@
       "focusName": "Biological Systems",
       "relatesTo": [
         {
-          "relationship": "protects",
+          "relationship": "governed by",
           "alphaName": "Plant Health & Development"
         },
         {
@@ -1182,7 +1182,7 @@
           "alphaName": "Regulatory Compliance & Standards"
         },
         {
-          "relationship": "coordinates with",
+          "relationship": "uses",
           "alphaName": "Plant Protection"
         }
       ],
@@ -1193,27 +1193,27 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Surveillance protocols established for high-risk p",
+              "name": "Surveillance protocols established for high-risk pathways (imports, transport, visitor entry)",
               "description": "Surveillance protocols established for high-risk pathways (imports, transport, visitor entry)",
               "seq": 1
             },
             {
-              "name": "Inspection frequency adequate based on risk assess",
+              "name": "Inspection frequency adequate based on risk assessment (daily, weekly, seasonal)",
               "description": "Inspection frequency adequate based on risk assessment (daily, weekly, seasonal)",
               "seq": 2
             },
             {
-              "name": "Diagnostic capacity available for rapid identifica",
+              "name": "Diagnostic capacity available for rapid identification (molecular methods, reference collections)",
               "description": "Diagnostic capacity available for rapid identification (molecular methods, reference collections)",
               "seq": 3
             },
             {
-              "name": "Reporting systems functional for notifiable pests/",
+              "name": "Reporting systems functional for notifiable pests/diseases (DEFRA, APHA, EPPO)",
               "description": "Reporting systems functional for notifiable pests/diseases (DEFRA, APHA, EPPO)",
               "seq": 4
             },
             {
-              "name": "Records maintained documenting surveillance effort",
+              "name": "Records maintained documenting surveillance effort and findings",
               "description": "Records maintained documenting surveillance effort and findings",
               "seq": 5
             }
@@ -1225,17 +1225,17 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Quarantine facilities operational for high-risk pl",
+              "name": "Quarantine facilities operational for high-risk plant material (imports, propagation material)",
               "description": "Quarantine facilities operational for high-risk plant material (imports, propagation material)",
               "seq": 1
             },
             {
-              "name": "Equipment sanitized between sites or plant populat",
+              "name": "Equipment sanitized between sites or plant populations (boots, tools, machinery)",
               "description": "Equipment sanitized between sites or plant populations (boots, tools, machinery)",
               "seq": 2
             },
             {
-              "name": "Plant passports verified for compliance with EU/UK",
+              "name": "Plant passports verified for compliance with EU/UK phytosanitary regulations",
               "description": "Plant passports verified for compliance with EU/UK phytosanitary regulations",
               "seq": 3
             },
@@ -1257,27 +1257,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Diagnostic tools deployed (PCR, LAMP, ELISA, morph",
+              "name": "Diagnostic tools deployed (PCR, LAMP, ELISA, morphological keys)",
               "description": "Diagnostic tools deployed (PCR, LAMP, ELISA, morphological keys)",
               "seq": 1
             },
             {
-              "name": "Laboratory services accessible with short turnarou",
+              "name": "Laboratory services accessible with short turnaround times (<48 hours for critical pests)",
               "description": "Laboratory services accessible with short turnaround times (<48 hours for critical pests)",
               "seq": 2
             },
             {
-              "name": "Molecular methods available for definitive identif",
+              "name": "Molecular methods available for definitive identification (DNA barcoding, whole-genome sequencing)",
               "description": "Molecular methods available for definitive identification (DNA barcoding, whole-genome sequencing)",
               "seq": 3
             },
             {
-              "name": "Diagnostic accuracy validated against reference ma",
+              "name": "Diagnostic accuracy validated against reference material or expert confirmation",
               "description": "Diagnostic accuracy validated against reference material or expert confirmation",
               "seq": 4
             },
             {
-              "name": "Early detection enables intervention before widesp",
+              "name": "Early detection enables intervention before widespread establishment",
               "description": "Early detection enables intervention before widespread establishment",
               "seq": 5
             }
@@ -1289,7 +1289,7 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Action plans pre-defined for high-consequence pest",
+              "name": "Action plans pre-defined for high-consequence pests (Xylella, Phytophthora, emerald ash borer)",
               "description": "Action plans pre-defined for high-consequence pests (Xylella, Phytophthora, emerald ash borer)",
               "seq": 1
             },
@@ -1304,12 +1304,12 @@
               "seq": 3
             },
             {
-              "name": "Movement of plant material stopped within containm",
+              "name": "Movement of plant material stopped within containment zone",
               "description": "Movement of plant material stopped within containment zone",
               "seq": 4
             },
             {
-              "name": "Eradication protocols initiated (roguing, soil ste",
+              "name": "Eradication protocols initiated (roguing, soil sterilization, chemical treatment)",
               "description": "Eradication protocols initiated (roguing, soil sterilization, chemical treatment)",
               "seq": 5
             }
@@ -1321,27 +1321,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Population eliminated through sustained eradicatio",
+              "name": "Population eliminated through sustained eradication effort (multi-year campaigns often required)",
               "description": "Population eliminated through sustained eradication effort (multi-year campaigns often required)",
               "seq": 1
             },
             {
-              "name": "Monitoring confirms absence for defined period (ty",
+              "name": "Monitoring confirms absence for defined period (typically 2-5 years post-elimination)",
               "description": "Monitoring confirms absence for defined period (typically 2-5 years post-elimination)",
               "seq": 2
             },
             {
-              "name": "Native species recover and recolonize formerly inf",
+              "name": "Native species recover and recolonize formerly infested sites",
               "description": "Native species recover and recolonize formerly infested sites",
               "seq": 3
             },
             {
-              "name": "Ecosystem functions restored (pollination, nutrien",
+              "name": "Ecosystem functions restored (pollination, nutrient cycling, trophic interactions)",
               "description": "Ecosystem functions restored (pollination, nutrient cycling, trophic interactions)",
               "seq": 4
             },
             {
-              "name": "Re-invasion prevented through ongoing surveillance",
+              "name": "Re-invasion prevented through ongoing surveillance and prevention protocols",
               "description": "Re-invasion prevented through ongoing surveillance and prevention protocols",
               "seq": 5
             }
@@ -1353,12 +1353,12 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Biodiversity high (species richness, functional di",
+              "name": "Biodiversity high (species richness, functional diversity, genetic diversity)",
               "description": "Biodiversity high (species richness, functional diversity, genetic diversity)",
               "seq": 1
             },
             {
-              "name": "Functional groups diverse (pollinators, herbivores",
+              "name": "Functional groups diverse (pollinators, herbivores, predators, decomposers, mutualists)",
               "description": "Functional groups diverse (pollinators, herbivores, predators, decomposers, mutualists)",
               "seq": 2
             },
@@ -1373,7 +1373,7 @@
               "seq": 4
             },
             {
-              "name": "Adaptive capacity demonstrated (ecosystem recovers",
+              "name": "Adaptive capacity demonstrated (ecosystem recovers from disturbances, resists novel threats)",
               "description": "Adaptive capacity demonstrated (ecosystem recovers from disturbances, resists novel threats)",
               "seq": 5
             }
@@ -1394,15 +1394,15 @@
       "focusName": "Biological Systems",
       "relatesTo": [
         {
-          "relationship": "guided by",
+          "relationship": "governed by",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "enabled by",
+          "relationship": "uses",
           "alphaName": "Production System Architecture"
         },
         {
-          "relationship": "aligned with",
+          "relationship": "governed by",
           "alphaName": "Regulatory Compliance & Standards"
         }
       ],
@@ -1413,17 +1413,17 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Greenhouse gas emissions calculated (CO2, N2O, CH4",
+              "name": "Greenhouse gas emissions calculated (CO2, N2O, CH4) from energy use, fertilizers, and land use",
               "description": "Greenhouse gas emissions calculated (CO2, N2O, CH4) from energy use, fertilizers, and land use",
               "seq": 1
             },
             {
-              "name": "Water use tracked (extraction, consumption, discha",
+              "name": "Water use tracked (extraction, consumption, discharge quality)",
               "description": "Water use tracked (extraction, consumption, discharge quality)",
               "seq": 2
             },
             {
-              "name": "Nutrient losses assessed (leaching to groundwater,",
+              "name": "Nutrient losses assessed (leaching to groundwater, runoff to surface water, atmospheric losses)",
               "description": "Nutrient losses assessed (leaching to groundwater, runoff to surface water, atmospheric losses)",
               "seq": 3
             },
@@ -1433,7 +1433,7 @@
               "seq": 4
             },
             {
-              "name": "Impacts documented using standardized metrics (car",
+              "name": "Impacts documented using standardized metrics (carbon footprint, water footprint, ecological footprint)",
               "description": "Impacts documented using standardized metrics (carbon footprint, water footprint, ecological footprint)",
               "seq": 5
             }
@@ -1445,7 +1445,7 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Water recycled or recirculated (closed-loop irriga",
+              "name": "Water recycled or recirculated (closed-loop irrigation, rainwater harvesting)",
               "description": "Water recycled or recirculated (closed-loop irrigation, rainwater harvesting)",
               "seq": 1
             },
@@ -1455,17 +1455,17 @@
               "seq": 2
             },
             {
-              "name": "Waste reduced through minimization and valorizatio",
+              "name": "Waste reduced through minimization and valorization (compost, substrate recycling)",
               "description": "Waste reduced through minimization and valorization (compost, substrate recycling)",
               "seq": 3
             },
             {
-              "name": "Pesticide use minimized via IPM (biological contro",
+              "name": "Pesticide use minimized via IPM (biological controls, cultural practices, resistant cultivars)",
               "description": "Pesticide use minimized via IPM (biological controls, cultural practices, resistant cultivars)",
               "seq": 4
             },
             {
-              "name": "Sustainable materials sourced (FSC timber, peat-fr",
+              "name": "Sustainable materials sourced (FSC timber, peat-free substrates, recycled plastics)",
               "description": "Sustainable materials sourced (FSC timber, peat-free substrates, recycled plastics)",
               "seq": 5
             }
@@ -1477,27 +1477,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Carbon neutral through renewable energy, efficienc",
+              "name": "Carbon neutral through renewable energy, efficiency, and verified carbon offsets",
               "description": "Carbon neutral through renewable energy, efficiency, and verified carbon offsets",
               "seq": 1
             },
             {
-              "name": "Water neutral through rainwater harvesting, effici",
+              "name": "Water neutral through rainwater harvesting, efficient irrigation, and groundwater recharge projects",
               "description": "Water neutral through rainwater harvesting, efficient irrigation, and groundwater recharge projects",
               "seq": 2
             },
             {
-              "name": "Waste diverted from landfill (100% composting, rec",
+              "name": "Waste diverted from landfill (100% composting, recycling, energy recovery)",
               "description": "Waste diverted from landfill (100% composting, recycling, energy recovery)",
               "seq": 3
             },
             {
-              "name": "Pollution prevented (zero pesticide runoff, zero n",
+              "name": "Pollution prevented (zero pesticide runoff, zero nutrient leaching)",
               "description": "Pollution prevented (zero pesticide runoff, zero nutrient leaching)",
               "seq": 4
             },
             {
-              "name": "Habitat protected through land set-asides or conse",
+              "name": "Habitat protected through land set-asides or conservation easements",
               "description": "Habitat protected through land set-asides or conservation easements",
               "seq": 5
             }
@@ -1509,22 +1509,22 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Carbon sequestered through afforestation, agrofore",
+              "name": "Carbon sequestered through afforestation, agroforestry, or soil organic matter accumulation",
               "description": "Carbon sequestered through afforestation, agroforestry, or soil organic matter accumulation",
               "seq": 1
             },
             {
-              "name": "Habitats created for wildlife (hedgerows, ponds, w",
+              "name": "Habitats created for wildlife (hedgerows, ponds, wildflower meadows, deadwood refugia)",
               "description": "Habitats created for wildlife (hedgerows, ponds, wildflower meadows, deadwood refugia)",
               "seq": 2
             },
             {
-              "name": "Water quality improved through constructed wetland",
+              "name": "Water quality improved through constructed wetlands, buffer strips, or phytoremediation",
               "description": "Water quality improved through constructed wetlands, buffer strips, or phytoremediation",
               "seq": 3
             },
             {
-              "name": "Soil health built (increasing organic matter, micr",
+              "name": "Soil health built (increasing organic matter, microbial diversity, aggregate stability)",
               "description": "Soil health built (increasing organic matter, microbial diversity, aggregate stability)",
               "seq": 4
             },
@@ -1541,7 +1541,7 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Biodiversity increased measurably (species richnes",
+              "name": "Biodiversity increased measurably (species richness, abundance, genetic diversity)",
               "description": "Biodiversity increased measurably (species richness, abundance, genetic diversity)",
               "seq": 1
             },
@@ -1551,17 +1551,17 @@
               "seq": 2
             },
             {
-              "name": "Water cycles restored (improved infiltration, redu",
+              "name": "Water cycles restored (improved infiltration, reduced erosion, stable baseflows)",
               "description": "Water cycles restored (improved infiltration, reduced erosion, stable baseflows)",
               "seq": 3
             },
             {
-              "name": "Nutrient cycles closed (internal recycling, minima",
+              "name": "Nutrient cycles closed (internal recycling, minimal external inputs)",
               "description": "Nutrient cycles closed (internal recycling, minimal external inputs)",
               "seq": 4
             },
             {
-              "name": "System resilience improved (resistance to drought,",
+              "name": "System resilience improved (resistance to drought, pests, climate variability)",
               "description": "System resilience improved (resistance to drought, pests, climate variability)",
               "seq": 5
             }
@@ -1573,12 +1573,12 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Landscape connectivity established (wildlife corri",
+              "name": "Landscape connectivity established (wildlife corridors, stepping-stone habitats)",
               "description": "Landscape connectivity established (wildlife corridors, stepping-stone habitats)",
               "seq": 1
             },
             {
-              "name": "Regional biodiversity targets met (species recover",
+              "name": "Regional biodiversity targets met (species recovery, habitat restoration)",
               "description": "Regional biodiversity targets met (species recovery, habitat restoration)",
               "seq": 2
             },
@@ -1588,12 +1588,12 @@
               "seq": 3
             },
             {
-              "name": "Collaborative governance operational (catchment pa",
+              "name": "Collaborative governance operational (catchment partnerships, landscape-scale conservation)",
               "description": "Collaborative governance operational (catchment partnerships, landscape-scale conservation)",
               "seq": 4
             },
             {
-              "name": "Long-term monitoring active (citizen science, ecol",
+              "name": "Long-term monitoring active (citizen science, ecological surveys, remote sensing)",
               "description": "Long-term monitoring active (citizen science, ecological surveys, remote sensing)",
               "seq": 5
             }
@@ -1614,19 +1614,19 @@
       "focusName": "Production Operations",
       "relatesTo": [
         {
-          "relationship": "provides",
+          "relationship": "produces",
           "alphaName": "Growing Environment"
         },
         {
-          "relationship": "requires",
+          "relationship": "uses",
           "alphaName": "Technical Infrastructure"
         },
         {
-          "relationship": "constrained by",
+          "relationship": "governed by",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "optimized by",
+          "relationship": "uses",
           "alphaName": "Digital Integration"
         }
       ],
@@ -1642,12 +1642,12 @@
               "seq": 1
             },
             {
-              "name": "Site suitability assessed (climate, water availabi",
+              "name": "Site suitability assessed (climate, water availability, energy access, proximity to markets)",
               "description": "Site suitability assessed (climate, water availability, energy access, proximity to markets)",
               "seq": 2
             },
             {
-              "name": "Capital budget established with cost-benefit analy",
+              "name": "Capital budget established with cost-benefit analysis and financial projections",
               "description": "Capital budget established with cost-benefit analysis and financial projections",
               "seq": 3
             },
@@ -1657,7 +1657,7 @@
               "seq": 4
             },
             {
-              "name": "Risk analysis completed (weather, pests, market vo",
+              "name": "Risk analysis completed (weather, pests, market volatility, technology reliability)",
               "description": "Risk analysis completed (weather, pests, market volatility, technology reliability)",
               "seq": 5
             }
@@ -1669,27 +1669,27 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Structural integrity verified (engineering calcula",
+              "name": "Structural integrity verified (engineering calculations, building codes, wind/snow loads)",
               "description": "Structural integrity verified (engineering calculations, building codes, wind/snow loads)",
               "seq": 1
             },
             {
-              "name": "Materials quality confirmed (UV-resistant glazing,",
+              "name": "Materials quality confirmed (UV-resistant glazing, food-safe plastics, corrosion-resistant metals)",
               "description": "Materials quality confirmed (UV-resistant glazing, food-safe plastics, corrosion-resistant metals)",
               "seq": 2
             },
             {
-              "name": "Spatial layout optimized for workflow efficiency (",
+              "name": "Spatial layout optimized for workflow efficiency (access, material handling, ergonomics)",
               "description": "Spatial layout optimized for workflow efficiency (access, material handling, ergonomics)",
               "seq": 3
             },
             {
-              "name": "Safety codes met (electrical, structural, fire, em",
+              "name": "Safety codes met (electrical, structural, fire, emergency exits)",
               "description": "Safety codes met (electrical, structural, fire, emergency exits)",
               "seq": 4
             },
             {
-              "name": "Commissioning plan developed (testing, calibration",
+              "name": "Commissioning plan developed (testing, calibration, training, documentation)",
               "description": "Commissioning plan developed (testing, calibration, training, documentation)",
               "seq": 5
             }
@@ -1701,22 +1701,22 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Equipment functional (pumps, fans, heaters, cooler",
+              "name": "Equipment functional (pumps, fans, heaters, coolers, lights, sensors)",
               "description": "Equipment functional (pumps, fans, heaters, coolers, lights, sensors)",
               "seq": 1
             },
             {
-              "name": "Setpoints calibrated against design specifications",
+              "name": "Setpoints calibrated against design specifications (temperature, humidity, light intensity, nutrient EC/pH)",
               "description": "Setpoints calibrated against design specifications (temperature, humidity, light intensity, nutrient EC/pH)",
               "seq": 2
             },
             {
-              "name": "Safety interlocks tested (emergency stops, pressur",
+              "name": "Safety interlocks tested (emergency stops, pressure relief, thermal cutoffs)",
               "description": "Safety interlocks tested (emergency stops, pressure relief, thermal cutoffs)",
               "seq": 3
             },
             {
-              "name": "Performance benchmarked against design targets (en",
+              "name": "Performance benchmarked against design targets (energy efficiency, uniformity, reliability)",
               "description": "Performance benchmarked against design targets (energy efficiency, uniformity, reliability)",
               "seq": 4
             },
@@ -1738,17 +1738,17 @@
               "seq": 1
             },
             {
-              "name": "Environmental targets met consistently (±2°C tempe",
+              "name": "Environmental targets met consistently (±2°C temperature, ±10% humidity, ±5% light intensity)",
               "description": "Environmental targets met consistently (±2°C temperature, ±10% humidity, ±5% light intensity)",
               "seq": 2
             },
             {
-              "name": "Crop schedules maintained (planting dates, harvest",
+              "name": "Crop schedules maintained (planting dates, harvest windows, succession cycles)",
               "description": "Crop schedules maintained (planting dates, harvest windows, succession cycles)",
               "seq": 3
             },
             {
-              "name": "Quality standards achieved (uniformity, marketabil",
+              "name": "Quality standards achieved (uniformity, marketability, shelf life)",
               "description": "Quality standards achieved (uniformity, marketability, shelf life)",
               "seq": 4
             },
@@ -1765,27 +1765,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Performance data analyzed (yield per m², crop cycl",
+              "name": "Performance data analyzed (yield per m², crop cycle duration, resource use intensity)",
               "description": "Performance data analyzed (yield per m², crop cycle duration, resource use intensity)",
               "seq": 1
             },
             {
-              "name": "Bottlenecks identified (light limitation, nutrient",
+              "name": "Bottlenecks identified (light limitation, nutrient imbalances, spatial constraints)",
               "description": "Bottlenecks identified (light limitation, nutrient imbalances, spatial constraints)",
               "seq": 2
             },
             {
-              "name": "Improvements implemented (equipment upgrades, layo",
+              "name": "Improvements implemented (equipment upgrades, layout modifications, protocol refinements)",
               "description": "Improvements implemented (equipment upgrades, layout modifications, protocol refinements)",
               "seq": 3
             },
             {
-              "name": "Efficiency gains measured (reduced energy per kg o",
+              "name": "Efficiency gains measured (reduced energy per kg output, faster crop turnover, higher first-grade yields)",
               "description": "Efficiency gains measured (reduced energy per kg output, faster crop turnover, higher first-grade yields)",
               "seq": 4
             },
             {
-              "name": "Best practices documented and replicated across pr",
+              "name": "Best practices documented and replicated across production units",
               "description": "Best practices documented and replicated across production units",
               "seq": 5
             }
@@ -1797,27 +1797,27 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "AI controllers deployed managing multi-objective o",
+              "name": "AI controllers deployed managing multi-objective optimization (yield, quality, resource efficiency, cost)",
               "description": "AI controllers deployed managing multi-objective optimization (yield, quality, resource efficiency, cost)",
               "seq": 1
             },
             {
-              "name": "Autonomous decisions validated against crop perfor",
+              "name": "Autonomous decisions validated against crop performance and business objectives",
               "description": "Autonomous decisions validated against crop performance and business objectives",
               "seq": 2
             },
             {
-              "name": "Human oversight strategic (exception handling, goa",
+              "name": "Human oversight strategic (exception handling, goal-setting, ethical review) rather than operational",
               "description": "Human oversight strategic (exception handling, goal-setting, ethical review) rather than operational",
               "seq": 3
             },
             {
-              "name": "Self-diagnostics functional (fault detection, root",
+              "name": "Self-diagnostics functional (fault detection, root cause analysis, predictive maintenance scheduling)",
               "description": "Self-diagnostics functional (fault detection, root cause analysis, predictive maintenance scheduling)",
               "seq": 4
             },
             {
-              "name": "Continuous learning enabled (reinforcement learnin",
+              "name": "Continuous learning enabled (reinforcement learning, model retraining, performance feedback loops)",
               "description": "Continuous learning enabled (reinforcement learning, model retraining, performance feedback loops)",
               "seq": 5
             }
@@ -1838,11 +1838,11 @@
       "focusName": "Production Operations",
       "relatesTo": [
         {
-          "relationship": "supports",
+          "relationship": "produces",
           "alphaName": "Production System Architecture"
         },
         {
-          "relationship": "enables",
+          "relationship": "produces",
           "alphaName": "Digital Integration"
         },
         {
@@ -1857,27 +1857,27 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Specifications defined (capacity, precision, envir",
+              "name": "Specifications defined (capacity, precision, environmental tolerances, certifications)",
               "description": "Specifications defined (capacity, precision, environmental tolerances, certifications)",
               "seq": 1
             },
             {
-              "name": "Suppliers evaluated (reputation, warranty, service",
+              "name": "Suppliers evaluated (reputation, warranty, service support, spare parts availability)",
               "description": "Suppliers evaluated (reputation, warranty, service support, spare parts availability)",
               "seq": 2
             },
             {
-              "name": "Budget approved with total cost of ownership analy",
+              "name": "Budget approved with total cost of ownership analysis (purchase, installation, maintenance, energy)",
               "description": "Budget approved with total cost of ownership analysis (purchase, installation, maintenance, energy)",
               "seq": 3
             },
             {
-              "name": "Compatibility verified with existing systems (elec",
+              "name": "Compatibility verified with existing systems (electrical, communication protocols, spatial fit)",
               "description": "Compatibility verified with existing systems (electrical, communication protocols, spatial fit)",
               "seq": 4
             },
             {
-              "name": "Delivery scheduled aligned with construction or op",
+              "name": "Delivery scheduled aligned with construction or operational timelines",
               "description": "Delivery scheduled aligned with construction or operational timelines",
               "seq": 5
             }
@@ -1894,17 +1894,17 @@
               "seq": 1
             },
             {
-              "name": "Safety compliance confirmed (electrical codes, pre",
+              "name": "Safety compliance confirmed (electrical codes, pressure vessel regulations, CE/UL markings)",
               "description": "Safety compliance confirmed (electrical codes, pressure vessel regulations, CE/UL markings)",
               "seq": 2
             },
             {
-              "name": "Operators trained on safe operation, routine maint",
+              "name": "Operators trained on safe operation, routine maintenance, and emergency procedures",
               "description": "Operators trained on safe operation, routine maintenance, and emergency procedures",
               "seq": 3
             },
             {
-              "name": "Manuals provided (operation, maintenance, troubles",
+              "name": "Manuals provided (operation, maintenance, troubleshooting, parts diagrams)",
               "description": "Manuals provided (operation, maintenance, troubleshooting, parts diagrams)",
               "seq": 4
             },
@@ -1921,27 +1921,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Maintenance schedules established based on manufac",
+              "name": "Maintenance schedules established based on manufacturer recommendations and operational intensity",
               "description": "Maintenance schedules established based on manufacturer recommendations and operational intensity",
               "seq": 1
             },
             {
-              "name": "Inspections conducted (visual checks, lubrication,",
+              "name": "Inspections conducted (visual checks, lubrication, filter changes, belt tension)",
               "description": "Inspections conducted (visual checks, lubrication, filter changes, belt tension)",
               "seq": 2
             },
             {
-              "name": "Wear tracked (runtime hours, cycles, condition mon",
+              "name": "Wear tracked (runtime hours, cycles, condition monitoring data)",
               "description": "Wear tracked (runtime hours, cycles, condition monitoring data)",
               "seq": 3
             },
             {
-              "name": "Parts replaced proactively before failure (bearing",
+              "name": "Parts replaced proactively before failure (bearings, seals, filters, consumables)",
               "description": "Parts replaced proactively before failure (bearings, seals, filters, consumables)",
               "seq": 4
             },
             {
-              "name": "Records maintained (maintenance logs, parts invent",
+              "name": "Records maintained (maintenance logs, parts inventory, failure history)",
               "description": "Records maintained (maintenance logs, parts inventory, failure history)",
               "seq": 5
             }
@@ -1953,27 +1953,27 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Calibration standards defined (reference solutions",
+              "name": "Calibration standards defined (reference solutions, certified instruments, standard operating procedures)",
               "description": "Calibration standards defined (reference solutions, certified instruments, standard operating procedures)",
               "seq": 1
             },
             {
-              "name": "Procedures documented (frequency, methods, accepta",
+              "name": "Procedures documented (frequency, methods, acceptance criteria, corrective actions)",
               "description": "Procedures documented (frequency, methods, acceptance criteria, corrective actions)",
               "seq": 2
             },
             {
-              "name": "Frequency appropriate for drift characteristics (p",
+              "name": "Frequency appropriate for drift characteristics (pH monthly, EC weekly, temperature quarterly)",
               "description": "Frequency appropriate for drift characteristics (pH monthly, EC weekly, temperature quarterly)",
               "seq": 3
             },
             {
-              "name": "Drift detected and corrected before measurement er",
+              "name": "Drift detected and corrected before measurement errors affect crop outcomes",
               "description": "Drift detected and corrected before measurement errors affect crop outcomes",
               "seq": 4
             },
             {
-              "name": "Calibration records maintained for audit and troub",
+              "name": "Calibration records maintained for audit and troubleshooting",
               "description": "Calibration records maintained for audit and troubleshooting",
               "seq": 5
             }
@@ -1985,7 +1985,7 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Communication protocols established (Modbus, MQTT,",
+              "name": "Communication protocols established (Modbus, MQTT, OPC-UA, REST APIs)",
               "description": "Communication protocols established (Modbus, MQTT, OPC-UA, REST APIs)",
               "seq": 1
             },
@@ -1995,12 +1995,12 @@
               "seq": 2
             },
             {
-              "name": "Interoperability tested (control commands, alarm p",
+              "name": "Interoperability tested (control commands, alarm propagation, data consistency)",
               "description": "Interoperability tested (control commands, alarm propagation, data consistency)",
               "seq": 3
             },
             {
-              "name": "System updates coordinated to maintain protocol co",
+              "name": "System updates coordinated to maintain protocol compatibility",
               "description": "System updates coordinated to maintain protocol compatibility",
               "seq": 4
             },
@@ -2022,22 +2022,22 @@
               "seq": 1
             },
             {
-              "name": "Failure prediction models validated (remaining use",
+              "name": "Failure prediction models validated (remaining useful life estimation, anomaly detection)",
               "description": "Failure prediction models validated (remaining useful life estimation, anomaly detection)",
               "seq": 2
             },
             {
-              "name": "Maintenance scheduled proactively based on conditi",
+              "name": "Maintenance scheduled proactively based on condition rather than fixed intervals",
               "description": "Maintenance scheduled proactively based on condition rather than fixed intervals",
               "seq": 3
             },
             {
-              "name": "Downtime minimized through just-in-time parts orde",
+              "name": "Downtime minimized through just-in-time parts ordering and pre-planned service windows",
               "description": "Downtime minimized through just-in-time parts ordering and pre-planned service windows",
               "seq": 4
             },
             {
-              "name": "Lifecycle costs optimized (reduced emergency repai",
+              "name": "Lifecycle costs optimized (reduced emergency repairs, extended equipment life, improved availability)",
               "description": "Lifecycle costs optimized (reduced emergency repairs, extended equipment life, improved availability)",
               "seq": 5
             }
@@ -2058,19 +2058,19 @@
       "focusName": "Production Operations",
       "relatesTo": [
         {
-          "relationship": "enables",
+          "relationship": "produces",
           "alphaName": "Production System Architecture"
         },
         {
-          "relationship": "guided by",
+          "relationship": "governed by",
           "alphaName": "Sustainability & Environmental Stewardship"
         },
         {
-          "relationship": "optimized by",
+          "relationship": "uses",
           "alphaName": "Digital Integration"
         },
         {
-          "relationship": "constrained by",
+          "relationship": "governed by",
           "alphaName": "Regulatory Compliance & Standards"
         }
       ],
@@ -2081,17 +2081,17 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Meters installed (water flow meters, electricity s",
+              "name": "Meters installed (water flow meters, electricity sub-meters, fertilizer scales, waste weigh scales)",
               "description": "Meters installed (water flow meters, electricity sub-meters, fertilizer scales, waste weigh scales)",
               "seq": 1
             },
             {
-              "name": "Data logged continuously or at sufficient frequenc",
+              "name": "Data logged continuously or at sufficient frequency (hourly energy, daily water, per-application fertilizer)",
               "description": "Data logged continuously or at sufficient frequency (hourly energy, daily water, per-application fertilizer)",
               "seq": 2
             },
             {
-              "name": "Baselines established (consumption per m² per crop",
+              "name": "Baselines established (consumption per m² per crop cycle, per plant, per kg output)",
               "description": "Baselines established (consumption per m² per crop cycle, per plant, per kg output)",
               "seq": 3
             },
@@ -2113,22 +2113,22 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Budgets calculated using crop models, historical d",
+              "name": "Budgets calculated using crop models, historical data, or agronomic guidelines",
               "description": "Budgets calculated using crop models, historical data, or agronomic guidelines",
               "seq": 1
             },
             {
-              "name": "Allocations defined by growth stage, environmental",
+              "name": "Allocations defined by growth stage, environmental conditions, and production targets",
               "description": "Allocations defined by growth stage, environmental conditions, and production targets",
               "seq": 2
             },
             {
-              "name": "Variances tracked (actual vs. budget) and analyzed",
+              "name": "Variances tracked (actual vs. budget) and analyzed for causes",
               "description": "Variances tracked (actual vs. budget) and analyzed for causes",
               "seq": 3
             },
             {
-              "name": "Justifications documented for budget overruns or s",
+              "name": "Justifications documented for budget overruns or savings",
               "description": "Justifications documented for budget overruns or savings",
               "seq": 4
             },
@@ -2145,27 +2145,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Water recycled through collection, filtration, and",
+              "name": "Water recycled through collection, filtration, and recirculation (90%+ reuse in hydroponic systems)",
               "description": "Water recycled through collection, filtration, and recirculation (90%+ reuse in hydroponic systems)",
               "seq": 1
             },
             {
-              "name": "Energy conserved via insulation, heat recovery, LE",
+              "name": "Energy conserved via insulation, heat recovery, LED lighting, variable-speed drives",
               "description": "Energy conserved via insulation, heat recovery, LED lighting, variable-speed drives",
               "seq": 2
             },
             {
-              "name": "Nutrients recovered from drainage water, compost l",
+              "name": "Nutrients recovered from drainage water, compost leachate, or biodigester effluent",
               "description": "Nutrients recovered from drainage water, compost leachate, or biodigester effluent",
               "seq": 3
             },
             {
-              "name": "Materials reused (pots, trays, substrates) or subs",
+              "name": "Materials reused (pots, trays, substrates) or substituted with reusable alternatives",
               "description": "Materials reused (pots, trays, substrates) or substituted with reusable alternatives",
               "seq": 4
             },
             {
-              "name": "Waste diverted from landfill through composting, r",
+              "name": "Waste diverted from landfill through composting, recycling, or energy recovery",
               "description": "Waste diverted from landfill through composting, recycling, or energy recovery",
               "seq": 5
             }
@@ -2177,27 +2177,27 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Spatial variability mapped using soil sampling, re",
+              "name": "Spatial variability mapped using soil sampling, remote sensing, or yield maps",
               "description": "Spatial variability mapped using soil sampling, remote sensing, or yield maps",
               "seq": 1
             },
             {
-              "name": "Temporal patterns understood (diurnal water use, p",
+              "name": "Temporal patterns understood (diurnal water use, phenological nutrient demand)",
               "description": "Temporal patterns understood (diurnal water use, phenological nutrient demand)",
               "seq": 2
             },
             {
-              "name": "Precision delivery executed (variable-rate irrigat",
+              "name": "Precision delivery executed (variable-rate irrigation, fertigation, foliar sprays)",
               "description": "Precision delivery executed (variable-rate irrigation, fertigation, foliar sprays)",
               "seq": 3
             },
             {
-              "name": "Over-application eliminated (reduced leaching, run",
+              "name": "Over-application eliminated (reduced leaching, runoff, salt accumulation)",
               "description": "Over-application eliminated (reduced leaching, runoff, salt accumulation)",
               "seq": 4
             },
             {
-              "name": "Efficiency metrics improved (water productivity kg",
+              "name": "Efficiency metrics improved (water productivity kg/m³, nutrient use efficiency %)",
               "description": "Efficiency metrics improved (water productivity kg/m³, nutrient use efficiency %)",
               "seq": 5
             }
@@ -2209,27 +2209,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Waste = feedstock (green waste composted, plastics",
+              "name": "Waste = feedstock (green waste composted, plastics recycled, organics anaerobically digested)",
               "description": "Waste = feedstock (green waste composted, plastics recycled, organics anaerobically digested)",
               "seq": 1
             },
             {
-              "name": "By-products monetized (compost sold, biogas used f",
+              "name": "By-products monetized (compost sold, biogas used for heat/power, CO2 for enrichment)",
               "description": "By-products monetized (compost sold, biogas used for heat/power, CO2 for enrichment)",
               "seq": 2
             },
             {
-              "name": "Closed nutrient loops functional (manure → compost",
+              "name": "Closed nutrient loops functional (manure → compost → crop → residue → manure)",
               "description": "Closed nutrient loops functional (manure → compost → crop → residue → manure)",
               "seq": 3
             },
             {
-              "name": "Virgin material use declining year-over-year (trac",
+              "name": "Virgin material use declining year-over-year (tracked as % of total inputs)",
               "description": "Virgin material use declining year-over-year (tracked as % of total inputs)",
               "seq": 4
             },
             {
-              "name": "Circular economy principles applied (design for di",
+              "name": "Circular economy principles applied (design for disassembly, material passports, reverse logistics)",
               "description": "Circular economy principles applied (design for disassembly, material passports, reverse logistics)",
               "seq": 5
             }
@@ -2246,22 +2246,22 @@
               "seq": 1
             },
             {
-              "name": "Water quality improved through constructed wetland",
+              "name": "Water quality improved through constructed wetlands, phytoremediation, reduced nutrient loading",
               "description": "Water quality improved through constructed wetlands, phytoremediation, reduced nutrient loading",
               "seq": 2
             },
             {
-              "name": "Soil health built (increasing organic matter, micr",
+              "name": "Soil health built (increasing organic matter, microbial biomass, aggregate stability)",
               "description": "Soil health built (increasing organic matter, microbial biomass, aggregate stability)",
               "seq": 3
             },
             {
-              "name": "Biodiversity supported (habitat creation, native s",
+              "name": "Biodiversity supported (habitat creation, native species plantings, pollinator resources)",
               "description": "Biodiversity supported (habitat creation, native species plantings, pollinator resources)",
               "seq": 4
             },
             {
-              "name": "Ecosystem services generated (pollination, natural",
+              "name": "Ecosystem services generated (pollination, natural pest control, carbon storage, aesthetic/cultural value)",
               "description": "Ecosystem services generated (pollination, natural pest control, carbon storage, aesthetic/cultural value)",
               "seq": 5
             }
@@ -2282,15 +2282,15 @@
       "focusName": "Production Operations",
       "relatesTo": [
         {
-          "relationship": "enhances",
+          "relationship": "produces",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "enables",
+          "relationship": "produces",
           "alphaName": "Production System Architecture"
         },
         {
-          "relationship": "requires",
+          "relationship": "uses",
           "alphaName": "Technical Infrastructure"
         }
       ],
@@ -2301,7 +2301,7 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Sensors installed measuring temperature, humidity,",
+              "name": "Sensors installed measuring temperature, humidity, light, CO2, soil moisture, EC, pH",
               "description": "Sensors installed measuring temperature, humidity, light, CO2, soil moisture, EC, pH",
               "seq": 1
             },
@@ -2321,7 +2321,7 @@
               "seq": 4
             },
             {
-              "name": "Coverage comprehensive (spatial distribution, redu",
+              "name": "Coverage comprehensive (spatial distribution, redundancy for critical sensors)",
               "description": "Coverage comprehensive (spatial distribution, redundancy for critical sensors)",
               "seq": 5
             }
@@ -2338,17 +2338,17 @@
               "seq": 1
             },
             {
-              "name": "Connectivity established (gateways, routers, netwo",
+              "name": "Connectivity established (gateways, routers, network security)",
               "description": "Connectivity established (gateways, routers, network security)",
               "seq": 2
             },
             {
-              "name": "Data pipelines functional (sensor → gateway → clou",
+              "name": "Data pipelines functional (sensor → gateway → cloud/local server → database)",
               "description": "Data pipelines functional (sensor → gateway → cloud/local server → database)",
               "seq": 3
             },
             {
-              "name": "Remote access enabled (web dashboards, mobile apps",
+              "name": "Remote access enabled (web dashboards, mobile apps, API endpoints)",
               "description": "Remote access enabled (web dashboards, mobile apps, API endpoints)",
               "seq": 4
             },
@@ -2365,27 +2365,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Analytics platforms deployed (time-series database",
+              "name": "Analytics platforms deployed (time-series databases, visualization tools, statistical analysis)",
               "description": "Analytics platforms deployed (time-series databases, visualization tools, statistical analysis)",
               "seq": 1
             },
             {
-              "name": "Visualizations intuitive (dashboards, charts, heat",
+              "name": "Visualizations intuitive (dashboards, charts, heatmaps, trend graphs)",
               "description": "Visualizations intuitive (dashboards, charts, heatmaps, trend graphs)",
               "seq": 2
             },
             {
-              "name": "Anomalies detected (statistical outliers, sensor f",
+              "name": "Anomalies detected (statistical outliers, sensor faults, unusual crop responses)",
               "description": "Anomalies detected (statistical outliers, sensor faults, unusual crop responses)",
               "seq": 3
             },
             {
-              "name": "Alerts configured (thresholds, rate-of-change, eve",
+              "name": "Alerts configured (thresholds, rate-of-change, event triggers)",
               "description": "Alerts configured (thresholds, rate-of-change, event triggers)",
               "seq": 4
             },
             {
-              "name": "Insights actionable (specific recommendations, cle",
+              "name": "Insights actionable (specific recommendations, clear decision support, prioritized actions)",
               "description": "Insights actionable (specific recommendations, clear decision support, prioritized actions)",
               "seq": 5
             }
@@ -2402,22 +2402,22 @@
               "seq": 1
             },
             {
-              "name": "Actuators controlled (irrigation valves, HVAC damp",
+              "name": "Actuators controlled (irrigation valves, HVAC dampers, lighting circuits, CO2 injection)",
               "description": "Actuators controlled (irrigation valves, HVAC dampers, lighting circuits, CO2 injection)",
               "seq": 2
             },
             {
-              "name": "Feedback loops closed (sensor → decision logic → a",
+              "name": "Feedback loops closed (sensor → decision logic → actuator → outcome → sensor)",
               "description": "Feedback loops closed (sensor → decision logic → actuator → outcome → sensor)",
               "seq": 3
             },
             {
-              "name": "Human override available (manual control, emergenc",
+              "name": "Human override available (manual control, emergency stop, automation suspension)",
               "description": "Human override available (manual control, emergency stop, automation suspension)",
               "seq": 4
             },
             {
-              "name": "System stability maintained (no oscillation, grace",
+              "name": "System stability maintained (no oscillation, graceful degradation on sensor failure)",
               "description": "System stability maintained (no oscillation, graceful degradation on sensor failure)",
               "seq": 5
             }
@@ -2429,27 +2429,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Predictive models trained using historical data (w",
+              "name": "Predictive models trained using historical data (weather, sensor data, crop performance)",
               "description": "Predictive models trained using historical data (weather, sensor data, crop performance)",
               "seq": 1
             },
             {
-              "name": "Forecasts accurate (validated against holdout data",
+              "name": "Forecasts accurate (validated against holdout data, error metrics acceptable)",
               "description": "Forecasts accurate (validated against holdout data, error metrics acceptable)",
               "seq": 2
             },
             {
-              "name": "Historical data leveraged (multi-year records, div",
+              "name": "Historical data leveraged (multi-year records, diverse growing conditions)",
               "description": "Historical data leveraged (multi-year records, diverse growing conditions)",
               "seq": 3
             },
             {
-              "name": "Future states anticipated (water demand, disease r",
+              "name": "Future states anticipated (water demand, disease risk, harvest timing, yield)",
               "description": "Future states anticipated (water demand, disease risk, harvest timing, yield)",
               "seq": 4
             },
             {
-              "name": "Preemptive action taken (irrigation scheduling, pr",
+              "name": "Preemptive action taken (irrigation scheduling, preventive treatments, labor planning)",
               "description": "Preemptive action taken (irrigation scheduling, preventive treatments, labor planning)",
               "seq": 5
             }
@@ -2461,27 +2461,27 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Multi-objective optimization active (balancing yie",
+              "name": "Multi-objective optimization active (balancing yield, quality, cost, environmental impact)",
               "description": "Multi-objective optimization active (balancing yield, quality, cost, environmental impact)",
               "seq": 1
             },
             {
-              "name": "AI decisions validated against business and agrono",
+              "name": "AI decisions validated against business and agronomic objectives",
               "description": "AI decisions validated against business and agronomic objectives",
               "seq": 2
             },
             {
-              "name": "Human oversight strategic (setting goals, monitori",
+              "name": "Human oversight strategic (setting goals, monitoring outcomes, ethical review) not tactical",
               "description": "Human oversight strategic (setting goals, monitoring outcomes, ethical review) not tactical",
               "seq": 3
             },
             {
-              "name": "Continuous improvement demonstrated (reinforcement",
+              "name": "Continuous improvement demonstrated (reinforcement learning, model retraining, performance gains)",
               "description": "Continuous improvement demonstrated (reinforcement learning, model retraining, performance gains)",
               "seq": 4
             },
             {
-              "name": "System autonomy high (>90% of control decisions au",
+              "name": "System autonomy high (>90% of control decisions automated, human intervention <5% of time)",
               "description": "System autonomy high (>90% of control decisions automated, human intervention <5% of time)",
               "seq": 5
             }
@@ -2502,15 +2502,15 @@
       "focusName": "Professional Practice",
       "relatesTo": [
         {
-          "relationship": "governs",
+          "relationship": "governed by",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "governs",
+          "relationship": "governed by",
           "alphaName": "Production System Architecture"
         },
         {
-          "relationship": "aligned with",
+          "relationship": "governed by",
           "alphaName": "Regulatory Compliance & Standards"
         }
       ],
@@ -2521,27 +2521,27 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Budgets detailed with line-item costs (labor, mate",
+              "name": "Budgets detailed with line-item costs (labor, materials, energy, equipment, overhead)",
               "description": "Budgets detailed with line-item costs (labor, materials, energy, equipment, overhead)",
               "seq": 1
             },
             {
-              "name": "Schedules realistic (Gantt charts, critical path a",
+              "name": "Schedules realistic (Gantt charts, critical path analysis, contingency buffers)",
               "description": "Schedules realistic (Gantt charts, critical path analysis, contingency buffers)",
               "seq": 2
             },
             {
-              "name": "Resources allocated (labor hours, equipment, space",
+              "name": "Resources allocated (labor hours, equipment, space, capital)",
               "description": "Resources allocated (labor hours, equipment, space, capital)",
               "seq": 3
             },
             {
-              "name": "Objectives clear (SMART goals: Specific, Measurabl",
+              "name": "Objectives clear (SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound)",
               "description": "Objectives clear (SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound)",
               "seq": 4
             },
             {
-              "name": "Risks identified (SWOT analysis, risk register, mi",
+              "name": "Risks identified (SWOT analysis, risk register, mitigation strategies)",
               "description": "Risks identified (SWOT analysis, risk register, mitigation strategies)",
               "seq": 5
             }
@@ -2553,27 +2553,27 @@
           "seq": 2,
           "checklist": [
             {
-              "name": "Stakeholders engaged through regular communication",
+              "name": "Stakeholders engaged through regular communication (meetings, reports, dashboards)",
               "description": "Stakeholders engaged through regular communication (meetings, reports, dashboards)",
               "seq": 1
             },
             {
-              "name": "Dependencies managed (supplier lead times, contrac",
+              "name": "Dependencies managed (supplier lead times, contractor scheduling, regulatory approvals)",
               "description": "Dependencies managed (supplier lead times, contractor scheduling, regulatory approvals)",
               "seq": 2
             },
             {
-              "name": "Communications clear (roles, responsibilities, dec",
+              "name": "Communications clear (roles, responsibilities, decision authority, escalation paths)",
               "description": "Communications clear (roles, responsibilities, decision authority, escalation paths)",
               "seq": 3
             },
             {
-              "name": "Meetings productive (agendas, minutes, action item",
+              "name": "Meetings productive (agendas, minutes, action items, follow-up)",
               "description": "Meetings productive (agendas, minutes, action items, follow-up)",
               "seq": 4
             },
             {
-              "name": "Conflicts resolved through negotiation, mediation,",
+              "name": "Conflicts resolved through negotiation, mediation, or escalation to leadership",
               "description": "Conflicts resolved through negotiation, mediation, or escalation to leadership",
               "seq": 5
             }
@@ -2585,27 +2585,27 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "KPIs defined (financial: revenue, margin, ROI; ope",
+              "name": "KPIs defined (financial: revenue, margin, ROI; operational: yield, quality, efficiency; customer: satisfaction, retention)",
               "description": "KPIs defined (financial: revenue, margin, ROI; operational: yield, quality, efficiency; customer: satisfaction, retention)",
               "seq": 1
             },
             {
-              "name": "Data collected regularly (daily, weekly, monthly d",
+              "name": "Data collected regularly (daily, weekly, monthly depending on metric)",
               "description": "Data collected regularly (daily, weekly, monthly depending on metric)",
               "seq": 2
             },
             {
-              "name": "Dashboards reviewed by management (visual indicato",
+              "name": "Dashboards reviewed by management (visual indicators, trend analysis, exception reporting)",
               "description": "Dashboards reviewed by management (visual indicators, trend analysis, exception reporting)",
               "seq": 3
             },
             {
-              "name": "Variances investigated (root cause analysis, corre",
+              "name": "Variances investigated (root cause analysis, corrective actions)",
               "description": "Variances investigated (root cause analysis, corrective actions)",
               "seq": 4
             },
             {
-              "name": "Corrective actions taken promptly (resource reallo",
+              "name": "Corrective actions taken promptly (resource reallocation, process changes, supplier changes)",
               "description": "Corrective actions taken promptly (resource reallocation, process changes, supplier changes)",
               "seq": 5
             }
@@ -2622,17 +2622,17 @@
               "seq": 1
             },
             {
-              "name": "Best practices documented (SOPs, training material",
+              "name": "Best practices documented (SOPs, training materials, knowledge base)",
               "description": "Best practices documented (SOPs, training materials, knowledge base)",
               "seq": 2
             },
             {
-              "name": "Lessons learned applied from past projects or crop",
+              "name": "Lessons learned applied from past projects or crop cycles",
               "description": "Lessons learned applied from past projects or crop cycles",
               "seq": 3
             },
             {
-              "name": "Efficiency gains measured (time, cost, quality imp",
+              "name": "Efficiency gains measured (time, cost, quality improvements)",
               "description": "Efficiency gains measured (time, cost, quality improvements)",
               "seq": 4
             },
@@ -2649,27 +2649,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Strategic plan developed (3-5 year horizon, vision",
+              "name": "Strategic plan developed (3-5 year horizon, vision, mission, goals)",
               "description": "Strategic plan developed (3-5 year horizon, vision, mission, goals)",
               "seq": 1
             },
             {
-              "name": "Market trends analyzed (consumer preferences, comp",
+              "name": "Market trends analyzed (consumer preferences, competitor actions, technology evolution)",
               "description": "Market trends analyzed (consumer preferences, competitor actions, technology evolution)",
               "seq": 2
             },
             {
-              "name": "Scenario planning conducted (best-case, worst-case",
+              "name": "Scenario planning conducted (best-case, worst-case, most-likely scenarios)",
               "description": "Scenario planning conducted (best-case, worst-case, most-likely scenarios)",
               "seq": 3
             },
             {
-              "name": "Investments prioritized (ROI analysis, strategic f",
+              "name": "Investments prioritized (ROI analysis, strategic fit, risk assessment)",
               "description": "Investments prioritized (ROI analysis, strategic fit, risk assessment)",
               "seq": 4
             },
             {
-              "name": "Vision communicated to all stakeholders (staff, in",
+              "name": "Vision communicated to all stakeholders (staff, investors, customers, community)",
               "description": "Vision communicated to all stakeholders (staff, investors, customers, community)",
               "seq": 5
             }
@@ -2681,22 +2681,22 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Innovation portfolio managed (incremental improvem",
+              "name": "Innovation portfolio managed (incremental improvements, breakthrough innovations, disruptive pivots)",
               "description": "Innovation portfolio managed (incremental improvements, breakthrough innovations, disruptive pivots)",
               "seq": 1
             },
             {
-              "name": "Partnerships cultivated (research institutions, te",
+              "name": "Partnerships cultivated (research institutions, technology vendors, industry consortia)",
               "description": "Partnerships cultivated (research institutions, technology vendors, industry consortia)",
               "seq": 2
             },
             {
-              "name": "New markets entered (geographic expansion, new cro",
+              "name": "New markets entered (geographic expansion, new crop types, value-added products)",
               "description": "New markets entered (geographic expansion, new crop types, value-added products)",
               "seq": 3
             },
             {
-              "name": "Business model adapted (direct-to-consumer, agri-t",
+              "name": "Business model adapted (direct-to-consumer, agri-tourism, carbon credits, ecosystem services)",
               "description": "Business model adapted (direct-to-consumer, agri-tourism, carbon credits, ecosystem services)",
               "seq": 4
             },
@@ -2722,19 +2722,19 @@
       "focusName": "Professional Practice",
       "relatesTo": [
         {
-          "relationship": "governs",
+          "relationship": "governed by",
           "alphaName": "Plant Protection"
         },
         {
-          "relationship": "governs",
+          "relationship": "governed by",
           "alphaName": "Resource Management"
         },
         {
-          "relationship": "governs",
+          "relationship": "governed by",
           "alphaName": "Technical Infrastructure"
         },
         {
-          "relationship": "aligned with",
+          "relationship": "governed by",
           "alphaName": "Business Operations & Governance"
         }
       ],
@@ -2745,27 +2745,27 @@
           "seq": 1,
           "checklist": [
             {
-              "name": "Legal obligations inventoried (pesticide regulatio",
+              "name": "Legal obligations inventoried (pesticide regulations, water abstraction, waste disposal, employment law)",
               "description": "Legal obligations inventoried (pesticide regulations, water abstraction, waste disposal, employment law)",
               "seq": 1
             },
             {
-              "name": "Deadlines known (license renewals, reporting submi",
+              "name": "Deadlines known (license renewals, reporting submissions, certification audits)",
               "description": "Deadlines known (license renewals, reporting submissions, certification audits)",
               "seq": 2
             },
             {
-              "name": "Requirements interpreted (legal text translated to",
+              "name": "Requirements interpreted (legal text translated to operational procedures)",
               "description": "Requirements interpreted (legal text translated to operational procedures)",
               "seq": 3
             },
             {
-              "name": "Responsibilities assigned (compliance officer, dep",
+              "name": "Responsibilities assigned (compliance officer, department heads, operators)",
               "description": "Responsibilities assigned (compliance officer, department heads, operators)",
               "seq": 4
             },
             {
-              "name": "Training provided to staff on regulatory requireme",
+              "name": "Training provided to staff on regulatory requirements and consequences of non-compliance",
               "description": "Training provided to staff on regulatory requirements and consequences of non-compliance",
               "seq": 5
             }
@@ -2782,22 +2782,22 @@
               "seq": 1
             },
             {
-              "name": "Procedures documented (SOPs for regulated activiti",
+              "name": "Procedures documented (SOPs for regulated activities, emergency response plans)",
               "description": "Procedures documented (SOPs for regulated activities, emergency response plans)",
               "seq": 2
             },
             {
-              "name": "Records complete (pesticide application logs, wate",
+              "name": "Records complete (pesticide application logs, water use, waste manifests, training records)",
               "description": "Records complete (pesticide application logs, water use, waste manifests, training records)",
               "seq": 3
             },
             {
-              "name": "Audits passed (regulatory inspections, internal au",
+              "name": "Audits passed (regulatory inspections, internal audits)",
               "description": "Audits passed (regulatory inspections, internal audits)",
               "seq": 4
             },
             {
-              "name": "Non-conformances rare (<1% of inspected items) and",
+              "name": "Non-conformances rare (<1% of inspected items) and corrected promptly",
               "description": "Non-conformances rare (<1% of inspected items) and corrected promptly",
               "seq": 5
             }
@@ -2809,7 +2809,7 @@
           "seq": 3,
           "checklist": [
             {
-              "name": "Certifications obtained (organic certification, Gl",
+              "name": "Certifications obtained (organic certification, GlobalGAP, Red Tractor, plant passports)",
               "description": "Certifications obtained (organic certification, GlobalGAP, Red Tractor, plant passports)",
               "seq": 1
             },
@@ -2824,12 +2824,12 @@
               "seq": 3
             },
             {
-              "name": "Certificates current (renewed before expiry, displ",
+              "name": "Certificates current (renewed before expiry, displayed publicly where required)",
               "description": "Certificates current (renewed before expiry, displayed publicly where required)",
               "seq": 4
             },
             {
-              "name": "Scope appropriate (all relevant operations and pro",
+              "name": "Scope appropriate (all relevant operations and product lines covered)",
               "description": "Scope appropriate (all relevant operations and product lines covered)",
               "seq": 5
             }
@@ -2841,22 +2841,22 @@
           "seq": 4,
           "checklist": [
             {
-              "name": "Risks assessed regularly (HACCP, COSHH, environmen",
+              "name": "Risks assessed regularly (HACCP, COSHH, environmental risk assessments)",
               "description": "Risks assessed regularly (HACCP, COSHH, environmental risk assessments)",
               "seq": 1
             },
             {
-              "name": "Controls effective (engineering controls, administ",
+              "name": "Controls effective (engineering controls, administrative controls, PPE)",
               "description": "Controls effective (engineering controls, administrative controls, PPE)",
               "seq": 2
             },
             {
-              "name": "Near-misses investigated (root cause analysis, cor",
+              "name": "Near-misses investigated (root cause analysis, corrective/preventive actions)",
               "description": "Near-misses investigated (root cause analysis, corrective/preventive actions)",
               "seq": 3
             },
             {
-              "name": "Corrective actions preventive (addressing systemic",
+              "name": "Corrective actions preventive (addressing systemic issues, not just symptoms)",
               "description": "Corrective actions preventive (addressing systemic issues, not just symptoms)",
               "seq": 4
             },
@@ -2873,27 +2873,27 @@
           "seq": 5,
           "checklist": [
             {
-              "name": "Performance exceeds minimum requirements (e.g., ze",
+              "name": "Performance exceeds minimum requirements (e.g., zero pesticide residues vs. MRL compliance)",
               "description": "Performance exceeds minimum requirements (e.g., zero pesticide residues vs. MRL compliance)",
               "seq": 1
             },
             {
-              "name": "Voluntary standards adopted (B Corp, carbon neutra",
+              "name": "Voluntary standards adopted (B Corp, carbon neutral, biodiversity net gain)",
               "description": "Voluntary standards adopted (B Corp, carbon neutral, biodiversity net gain)",
               "seq": 2
             },
             {
-              "name": "Innovation shared with industry (case studies, con",
+              "name": "Innovation shared with industry (case studies, conference presentations, peer-to-peer learning)",
               "description": "Innovation shared with industry (case studies, conference presentations, peer-to-peer learning)",
               "seq": 3
             },
             {
-              "name": "Industry leadership demonstrated (awards, recognit",
+              "name": "Industry leadership demonstrated (awards, recognition, media coverage)",
               "description": "Industry leadership demonstrated (awards, recognition, media coverage)",
               "seq": 4
             },
             {
-              "name": "Recognition earned (certifications, awards, custom",
+              "name": "Recognition earned (certifications, awards, customer loyalty, premium pricing)",
               "description": "Recognition earned (certifications, awards, customer loyalty, premium pricing)",
               "seq": 5
             }
@@ -2905,27 +2905,27 @@
           "seq": 6,
           "checklist": [
             {
-              "name": "Standards development engaged (committee membershi",
+              "name": "Standards development engaged (committee membership, public consultations, pilot programs)",
               "description": "Standards development engaged (committee membership, public consultations, pilot programs)",
               "seq": 1
             },
             {
-              "name": "Policy input provided (lobbying, white papers, evi",
+              "name": "Policy input provided (lobbying, white papers, evidence submissions to government)",
               "description": "Policy input provided (lobbying, white papers, evidence submissions to government)",
               "seq": 2
             },
             {
-              "name": "Industry associations led (board membership, worki",
+              "name": "Industry associations led (board membership, working groups, thought leadership)",
               "description": "Industry associations led (board membership, working groups, thought leadership)",
               "seq": 3
             },
             {
-              "name": "Regulatory dialogue active (collaborative relation",
+              "name": "Regulatory dialogue active (collaborative relationships with regulators, data sharing)",
               "description": "Regulatory dialogue active (collaborative relationships with regulators, data sharing)",
               "seq": 4
             },
             {
-              "name": "Future frameworks shaped (influencing next-generat",
+              "name": "Future frameworks shaped (influencing next-generation regulations, standards, and incentives)",
               "description": "Future frameworks shaped (influencing next-generation regulations, standards, and incentives)",
               "seq": 5
             }
@@ -3462,7 +3462,33 @@
         }
       ],
       "name": "Horticulture Essentials Baseline Journey",
-      "description": "The transformational journey of horticulture from fragmented craft to integrated profession"
+      "description": "The transformational journey of horticulture from fragmented craft to integrated profession",
+      "citationNames": [
+        "Adams, C. R., Bamford, K. M., & Early, M. P. (2025)",
+        "Skills England (Institute for Apprenticeships and Technical Education) (2024)",
+        "Royal Horticultural Society (2023)",
+        "Landscape Institute (2023)",
+        "Nandi, R., Shukla, A. K., Dutta, P., & Patel, S. (2026)",
+        "Barbosa, G. L., Gadelha, F. D. A., Kublik, N., Proctor, A., Reichelm, L., Weissinger, E., Wohlleb, G. M., & Halden, R. U. (2015)",
+        "Choudhary, K. K., Choudhary, S., & Prasad, S. M. (2022)",
+        "Despommier, D. (2020)",
+        "Savvas, D., & Gruda, N. (2018)",
+        "Resh, H. M. (2022)",
+        "Kozai, T., Niu, G., & Takagaki, M. (Eds.) (2020)",
+        "Ehret, D. L., Lau, A., Bittman, S., Lin, W., & Shelford, T. (2017)",
+        "Kacira, M. (2011)",
+        "Shamshiri, R. R., Kalantari, F., Ting, K. C., Thorp, K. R., Hameed, I. A., Weltzien, C., Ahmad, D., & Shad, Z. M. (2018)",
+        "Benke, K., & Tomkins, B. (2017)",
+        "Diver, S. (2006)",
+        "van Lenteren, J. C., Bolckmans, K., Köhl, J., Ravensberg, W. J., & Urbaneja, A. (2018)",
+        "Kogan, M. (1998)",
+        "Pedigo, L. P., & Rice, M. E. (2009)",
+        "Santamaria, P. (2006)",
+        "Jones, J. B., Jr. (2016)",
+        "Verheijen, F. G. A., Jeffery, S., Bastos, A. C., van der Velde, M., & Diafas, I. (2019)",
+        "Nannipieri, P., Ascher, J., Ceccherini, M. T., Landi, L., Pietramellara, G., & Renella, G. (2003)",
+        "Department for Environment, Food & Rural Affairs (DEFRA) (2023)"
+      ]
     }
   ],
   "assets": [
